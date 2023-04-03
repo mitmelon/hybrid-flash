@@ -1,0 +1,27 @@
+{
+    "name": "mitmelon/hybrid-flash",
+    "description": "Hybrid flash drive is a programmable cloud drive for storing files securely with client public key while you keep the private key (decryption) in your closets. Only the owner can decrypt the data.",
+    "type": "library",
+    "license": "Manomite",
+    "authors": [
+        {
+            "name": "Manomite",
+            "email": "manomitehq@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "paragonie/halite": "^5",
+        "php-curl-class/php-curl-class": "^9.13",
+        "unitpay/shamir": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manomite\\": [
+                "src/"
+            ]
+        }
+    }
+}
